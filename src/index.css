@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.page-header{
+  width: 100%;
+  background-color: aqua;
+}
+
+.container{
+  max-width: 1140px;
+  padding: 15px 25px;
+  margin: 0 auto;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.logo:hover{
+  cursor: pointer;
+  color: aqua;
+  background-color: black;
+}
+
+.header-nav{
+  display: flex;
+  gap: 30px;
+}
+
+.header-nav_link{
+  color: black;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 0.3s;
+}
+
+.header-nav_link:hover{
+  color: aqua;
+  background-color: black;
+  cursor: pointer;
+}
+
+.text-light{
+  color: #000;
+}
+
+.text-dark{
+  color: aqua;
+}
