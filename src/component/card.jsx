@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import "./card.css";
-// import { Rating } from "react-simple-star-rating";
+import { Rating } from "react-simple-star-rating";
 
 function Card() {
     const [menu, setMenu] = useState([])
@@ -33,9 +33,9 @@ function Card() {
                         </div>
                         <p className="card-text">{el.description}</p>
                         <div className="card-rate">
-                            {/* <Rating ratingValue={random}
+                            <Rating ratingValue={random}
                             /* Available Props */
-                            /> */}
+                            />
                         </div>
                     </div>
                 </div>

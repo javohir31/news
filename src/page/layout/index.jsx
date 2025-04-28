@@ -8,6 +8,7 @@ const RootLayout = () => {
   return (
     <>
         <Header/>
+        <Card/>
         <Outlet/>
         <Footer/>
     </>
